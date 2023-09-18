@@ -1,36 +1,36 @@
 # Australian Exclusive Economic Zone AMB 2020 - Clipped to Tropics (AIMS, GA)
 This dataset corresponds to the Australian Maritime Boundaries Exclusive Economic Zone clipped to the tropics, i.e. only retaining the boundary above the [Tropic of Capricorn](https://en.wikipedia.org/wiki/Tropic_of_Capricorn) at -23.43621 deg latitude.
 
-# AU_GA_AMB2020_EEZ-Limit_No-land-clip_Tropics.shp
-![Preview map](public/AU_GA_AMB2020_EEZ-Limit_No-land-clip_Tropics_Preview-map.png)
+## AU_GA_AMB2020_EEZ-Limit_No-land-clip_Tropics.shp
+![Preview map](media/AU_GA_AMB2020_EEZ-Limit_No-land-clip_Tropics_Preview-map.png)
 
 
-# AU_GA_AMB2020_EEZ-Limit_Tropics.shp
-![Preview map](public/AU_GA_AMB2020_EEZ-Limit_Tropics_Preview-map.png)
+## AU_GA_AMB2020_EEZ-Limit_Tropics.shp
+![Preview map](media/AU_GA_AMB2020_EEZ-Limit_Tropics_Preview-map.png)
 
-# Attribution
+## Attribution
 - **Title:** Australian Exclusive Economic Zone AMB 2020 - Clipped to Tropics (AIMS, GA)
 - **Processing:** Eric Lawrey, Australian Institute of Marine Science
 - **License:** Creative Commons Attribution 4.0 International Licence http://creativecommons.org/licenses/
 - **Creation date:** 19 September 2023
 
-# Tools
+## Tools
 - Python - Downloading source data
 - QGIS - For plotting the final data
 
-# Source data
+## Source data
 
-## EEZ and Territorial sea - AMB
+### EEZ and Territorial sea - AMB
 Alcock, M.B., Taffs, N.J., Zhong, Q. 2020. Seas and Submerged Lands Act 1973 - Australian Maritime Boundaries 2020 - Geodatabase. Geoscience Australia, Canberra. https://pid.geoscience.gov.au/dataset/ga/144571
 
 Creative Commons Attribution 4.0 International Licence http://creativecommons.org/licenses/
 
-## GEODATA COAST 100K 2004
+### GEODATA COAST 100K 2004
 2004. GEODATA COAST 100K 2004. Geoscience Australia, Canberra. https://pid.geoscience.gov.au/dataset/ga/61395
 
 Creative Commons Attribution 4.0 International Licence http://creativecommons.org/licenses/
 
-# Reproducing this dataset
+## Reproducing this dataset
 This section contains a set of instructions for reproducing this dataset. In order to get a EEZ boundary we need to base the data set on the EEZ Limits. If we use the EEZ Areas it doesn't cover the area from the 12 nautical mile limit to the coast.
 ![EEZ Areas doesn't cover territorial waters or state waters and so isn't quite what is needed](media/EEZ-areas.png)
 
