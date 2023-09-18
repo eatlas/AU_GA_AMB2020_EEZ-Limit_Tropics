@@ -1,9 +1,11 @@
 # Australian Exclusive Economic Zone AMB 2020 - Clipped to Tropics (AIMS, GA)
 This dataset corresponds to the Australian Maritime Boundaries Exclusive Economic Zone clipped to the tropics, i.e. only retaining the boundary above the [Tropic of Capricorn](https://en.wikipedia.org/wiki/Tropic_of_Capricorn) at -23.43621 deg latitude.
 
+## Download this dataset
+This dataset is available for download from https://nextcloud.eatlas.org.au/apps/sharealias/a/AU_GA_AMB2020_EEZ-Limit_Tropics
+
 ## AU_GA_AMB2020_EEZ-Limit_No-land-clip_Tropics.shp
 ![Preview map](media/AU_GA_AMB2020_EEZ-Limit_No-land-clip_Tropics_Preview-map.png)
-
 
 ## AU_GA_AMB2020_EEZ-Limit_Tropics.shp
 ![Preview map](media/AU_GA_AMB2020_EEZ-Limit_Tropics_Preview-map.png)
@@ -117,9 +119,11 @@ Note: I found odd behaviour when entering values too close to 180.00000, or if I
    - **Overlay layer:** Dissolved
    - **Clipped**: public/AU_GA_AMB2020_EEZ-Limit_Tropics.shp 
 
-# Folder descriptions
+## Folder descriptions
 - **new-data**: - This folder includes any data that was created as part of this dataset. This includes the shapefile to clip the EEZ to the tropics.
 - **public**: - Final generate data that is shipped to the client. This typically includes a preview map.
 - **src-data**: - Source data obtain from external public data sources. This data is typically downloaded automatically using a script. The downloaded data is not included in this repository to save on space (as it is assumed that it can be downloaded again if necessary).
 
+## Paths
+A copy of all the files associated with this dataset are stored in the eAltas repository at data\custodian\2020-2029-other\AU_GA_AMB2020_EEZ-Limit_Tropics
 

@@ -1,2 +1,3 @@
 src-data/
-public/
+public/*
+!public/readme.md
